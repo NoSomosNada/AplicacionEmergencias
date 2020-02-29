@@ -10,11 +10,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="407dp"
+        android:layout_width="409dp"
         android:layout_height="241dp"
-        app:layout_constraintBottom_toTopOf="@+id/registro"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginStart="1dp"
+
+        android:layout_marginTop="201dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/pantallaInicio" />
 
     <TextView
@@ -50,10 +52,12 @@
         android:id="@+id/registro"
         android:layout_width="407dp"
         android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="178dp"
         android:backgroundTint="@color/colorBlanco"
         android:text="Registrarse"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
